@@ -1,0 +1,139 @@
+/* Custom BetterDiscord Theme */
+
+/* General Styling */
+body {
+    --background-primary: #1e2124;
+    --text-normal: #ffffff;
+    background-color: var(--background-primary);
+    color: var(--text-normal);
+}
+
+/* Chat Area Styling */
+#app-mount .layer .chat .messages {
+    --background-messages: #2f3136;
+    background-color: var(--background-messages);
+}
+
+/* Message Styling */
+#app-mount .message {
+    --border-message: #ffffff;
+    border: 1px solid var(--border-message);
+    border-radius: 8px;
+}
+
+/* User Nickname Styling */
+#app-mount .username {
+    --text-username: #7289da;
+    color: var(--text-username);
+}
+
+/* Channel List Styling */
+#app-mount .guilds {
+    --background-guilds: #36393f;
+    background-color: var(--background-guilds);
+}
+
+/* Server Icon Styling */
+#app-mount .guild .avatar-small {
+    --border-server-icon: #ffffff;
+    border: 1px solid var(--border-server-icon);
+    border-radius: 50%;
+}
+
+/* Server Name Styling */
+#app-mount .guild .guild-identifier {
+    --text-server-name: #ffffff;
+    color: var(--text-server-name);
+}
+
+/* Voice Channel Styling */
+#app-mount .channel-voice-states {
+    --text-voice-channel: #43b581;
+    color: var(--text-voice-channel);
+}
+
+/* Mention Styling */
+#app-mount .mention {
+    --text-mention: #f04747;
+    color: var(--text-mention);
+}
+
+/* Link Styling */
+#app-mount a {
+    --text-link: #7289da;
+    color: var(--text-link);
+}
+
+/* Scrollbar Styling */
+#app-mount .ps__rail-y {
+    --background-scrollbar: #2f3136;
+    background-color: var(--background-scrollbar);
+}
+
+#app-mount .ps__thumb-y {
+    --background-thumb: #7289da;
+    background-color: var(--background-thumb);
+}
+
+/* Highlight Styling */
+#app-mount .rgb-highlight {
+    --background-highlight: rgba(255, 0, 0, 0.3);
+    --text-highlight: #ff0000;
+    background-color: var(--background-highlight);
+    color: var(--text-highlight);
+}
+
+/* Custom Emoji Styling */
+#app-mount .emoji {
+    --emoji-size: 20px;
+    width: var(--emoji-size);
+    height: var(--emoji-size);
+}
+
+/* Member List Styling */
+#app-mount .member-username {
+    --text-member: #ffffff;
+    color: var(--text-member);
+}
+
+/* Channel Topic Styling */
+#app-mount .channel-topic {
+    --text-channel-topic: #99aab5;
+    color: var(--text-channel-topic);
+}
+
+/* Code Block Styling */
+#app-mount .markup code {
+    --background-code: #2f3136;
+    --text-code: #ffffff;
+    --border-code: #ffffff;
+    background-color: var(--background-code);
+    color: var(--text-code);
+    border: 1px solid var(--border-code);
+    border-radius: 4px;
+    padding: 2px;
+}
+
+/* Mentions Badge Styling */
+#app-mount .badge {
+    --background-badge: #f04747;
+    --text-badge: #ffffff;
+    background-color: var(--background-badge);
+    color: var(--text-badge);
+}
+
+/* Notification Styling */
+#app-mount .notification-badge {
+    --background-notification: #43b581;
+    --text-notification: #ffffff;
+    background-color: var(--background-notification);
+    color: var(--text-notification);
+}
+
+/* User Popout Styling */
+#app-mount .user-popout {
+    --background-popout: #2f3136;
+    --text-popout: #ffffff;
+    background-color: var(--background-popout);
+    color: var(--text-popout);
+}
