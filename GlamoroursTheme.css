@@ -16,14 +16,14 @@ body {
 
 /* Message Styling */
 #app-mount .message {
-    --border-message: #ffffff;
+    --border-message: #00ff00; /* Green border */
     border: 1px solid var(--border-message);
     border-radius: 8px;
 }
 
 /* User Nickname Styling */
 #app-mount .username {
-    --text-username: #7289da;
+    --text-username: #ff00ff; /* Magenta text */
     color: var(--text-username);
 }
 
@@ -35,32 +35,32 @@ body {
 
 /* Server Icon Styling */
 #app-mount .guild .avatar-small {
-    --border-server-icon: #ffffff;
+    --border-server-icon: #0000ff; /* Blue border */
     border: 1px solid var(--border-server-icon);
     border-radius: 50%;
 }
 
 /* Server Name Styling */
 #app-mount .guild .guild-identifier {
-    --text-server-name: #ffffff;
+    --text-server-name: #ffff00; /* Yellow text */
     color: var(--text-server-name);
 }
 
 /* Voice Channel Styling */
 #app-mount .channel-voice-states {
-    --text-voice-channel: #43b581;
+    --text-voice-channel: #ff8800; /* Orange text */
     color: var(--text-voice-channel);
 }
 
 /* Mention Styling */
 #app-mount .mention {
-    --text-mention: #f04747;
+    --text-mention: #ff0000; /* Red text */
     color: var(--text-mention);
 }
 
 /* Link Styling */
 #app-mount a {
-    --text-link: #7289da;
+    --text-link: #00ffff; /* Cyan text */
     color: var(--text-link);
 }
 
@@ -92,7 +92,7 @@ body {
 
 /* Member List Styling */
 #app-mount .member-username {
-    --text-member: #ffffff;
+    --text-member: #00ff00; /* Green text */
     color: var(--text-member);
 }
 
